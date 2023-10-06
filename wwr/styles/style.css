@@ -19,7 +19,7 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color:rgba(20,30,13, .7)
+    color:rgba(20,30,13, .7);
 }    
 .logo{
     width: 80px;
@@ -33,7 +33,7 @@ nav a {
 }
 main section{
     text-align: center;
-    color:brown
+    color:brown;
 }                                
 .icon {
     width: 80px;
@@ -52,7 +52,7 @@ footer{
 }
 .msg p{
     background-color: rgba(20,30,13, .7);
-    color:aqua
+    color:aqua;
 }
 footer p {
     font-size: 1.2em;
@@ -60,7 +60,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-    color:antiquewhite
+    color:antiquewhite;
 }    
    
                 
