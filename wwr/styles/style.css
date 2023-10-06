@@ -1,5 +1,6 @@
 #background {
     height: 725px;
+    background-color: #d9c2a3;
 }
 body {
     background-color: #fcfbfb; 
@@ -37,10 +38,26 @@ main section{
 .icon {
     width: 80px;
 }
+footer{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+}
+.msg{
+    background-color: blanchedalmond;
+}
+.msg h2{
+    background-color:rgba(20,30,13, .7);
+
+}
+.msg p{
+    background-color: bisque;
+    color:aqua
+}
 footer p {
     font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
 }    
+   
                 
