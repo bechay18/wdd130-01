@@ -1,8 +1,56 @@
 .main-para {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
 }
 #active {
     background-color: white;
     color: steelblue;
+}
+footer{
+    text-align: center;
+    background-color: steelblue;
+    color: aliceblue;
+}
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+}
+nav{
+    text-align: center;
+    background-color: steelblue;
+
+}
+a{
+    color: aliceblue;
+}
+nav{
+    padding: 25px;
+}
+a{
+    padding: 25px;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid steelblue;
+}
+a:hover{
+    background-color: white;
+    color: steelblue;
+}
+*{
+    border: 2px solid blue;
 }

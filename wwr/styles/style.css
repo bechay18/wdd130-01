@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inclusive+Sans:ital@1&family=Onest&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inclusive+Sans:ital@1&family=Onest&family=Rock+Salt&display=swap');
+.home-title{
+    font-family: 'Rock-Salt', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 #background {
     height: 725px;
     background-color: #d9c2a3;
 }
 body {
     background-color: #fcfbfb; 
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -16,6 +30,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -23,6 +38,9 @@ nav a {
 }    
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 #hero-img{
     width: 100%;
@@ -34,20 +52,33 @@ nav a {
 .book, .book{
     background-color: rosybrown;
     text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 main section{
     text-align: center;
     color:brown;
-}                                
+}  
+main section img{
+    box-sizing: border-box;
+}                              
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer{
     text-decoration: underline;
     background-color: rgba(20,30,13, .7);
+    margin-top: 200px;
 }
 .msg{
     background-color: rgba(20,30,13, .7);
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
 }
 .msg h2{
     background-color:rgba(20,30,13, .7);
@@ -57,10 +88,12 @@ footer{
 .msg p{
     background-color: rgba(20,30,13, .7);
     color:aqua;
+    padding-bottom: 15px;
 }
 footer p {
     font-size: 1.2em;
     color:beige;
+    padding: 25px 50px;
 }
 footer p a{
     color: beige;
@@ -69,12 +102,27 @@ footer p a:hover {
     text-decoration: underline;
     color:salmon;
 }  
+footer .social img{
+    padding-top: 15px;
+}
 .book, .join{
     background-color: rosybrown;
     text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .book:hover, .join:hover{
     background-color:darksalmon;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
 } 
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+
    
                 
