@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Pacifico&display=swap');
+
+:roots{
+    --primary-color: #0d1321;
+    --secondary-color:#1d2d44;
+    --accent1-color:#3e5c76;
+    --accent2-colot:#748cab;
+
+    --heading-font: "Pacifico";
+    --paragraph-font: 'Nunito Sans', sans-serif;
+}
