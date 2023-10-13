@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inclusive+Sans:ital@1&family=Onest&family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inclusive+Sans:ital@1&family=Onest&family=Raleway:ital@1&display=swap');
 .home-title{
     font-family: 'Rock-Salt', cursive;
     font-size: 2em;
@@ -11,7 +11,7 @@
 }
 body {
     background-color: #fcfbfb; 
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
