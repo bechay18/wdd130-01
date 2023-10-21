@@ -169,26 +169,44 @@
   /* Activity 6 styles */ 
   .content6 {
     /* This is the parent of the activity 6 boxes. */
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    transition: 0.5s ease;
+    position: relative;
+    gap: 20px;
   }
   .red6 {
-    width: 100px; 
-    height: 100px; 
+    width: 250px; 
+    height: 150px; 
     background-color: red; 
+    position: absolute;
+    top: 0;
+    left: 0;
   } 
   .green6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
+    width: 150px; 
+    height: 150px; 
+    background-color: green;
+    position: absolute;
+    top: 250px;
+    z-index: 2;
   } 
   .yellow6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
+    width: 150px; 
+    height: 250px; 
+    background-color: gold;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    z-index: 5;
   } 
   .blue6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: blue; 
+    width: 280px; 
+    height: 280px; 
+    background-color: blue;
+    position: absolute; 
+    top: 40px;
+    left: 40px;
   } 
   
   
