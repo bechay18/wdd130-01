@@ -22,10 +22,10 @@ h2{
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #292c1e;
+    background-color: #515e3c;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #292c1e;
     color: #d9c2a3;
 } 
 nav a {
