@@ -20,7 +20,9 @@ h2{
     margin: 0;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #292c1e;
 }
 nav a:hover {
     background-color: black;
