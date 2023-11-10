@@ -21,9 +21,26 @@ body {
     margin: 0;
     padding: 0;
 }
-h2{
+.msg-h2{
+    background-color: #292c1e;
+    font-size: 30px;
+    margin: auto;
+    color: bisque;
+    padding: 10px;
+    font-family: 'pacifico', cursive;
+}
+.p{
+    background-color: #292c1e;
+    margin:auto;
+    padding: 20px;
+    color: #3b6d78;
+    font-size: 20px;
+}
+.msg-h3{
     margin: 0;
-    
+    padding: 5px;
+    color:aliceblue;
+    font-size: 20px;
 }
 header {
     display: grid;
@@ -110,6 +127,25 @@ nav a {
     margin-top: 50px;
     border-radius: 5px;
 }
+.rafting-img{
+    width: 30%;
+    margin: 0;
+    display: block;
+    box-shadow: 5px 5px 10px #b68877;
+}
+.overlay{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    background-color: #323d24;
+    padding: 100px;
+    box-shadow: 5px 5px 10px #3b6d78;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
 
 main section{
     text-align: center;
@@ -122,6 +158,12 @@ main section img{
     display: grid;
     grid-template-columns: 5fr;
     padding: 10px;
+}
+.container h2{
+    font-size: 50px;
+    color: #3b6d78;
+    text-align: center;
+    
 }
 .icon {
     width: 80px;
@@ -236,7 +278,7 @@ footer .social img{
         margin-top: 0;
     }
     #hero-msg h4 {
-        display: none;
+        display: auto;
     }
     #hero-msg h5 {
         margin-top: auto;
@@ -259,6 +301,14 @@ footer .social img{
     }
     footer {
         margin-top: 25px;
+    }
+    .rafting-img{
+        margin: 50px auto;
+        width: 50%;
+    }
+    .msg-h2, .msg-h3, .p{
+        margin: 50px auto;
+        width: 50%;
     }
 }
 
