@@ -63,11 +63,20 @@ nav a {
 #hero-msg h1{
     text-align: center;
     color: #3b6d78;
+    border: 1px solid style, white;
 }  
 #hero-msg h4{
     color: #a28f6a;
     text-align: center;
-}  
+} 
+#hero-msg h5{
+    color: #a28f6a;
+    text-align: center;
+    font-size: 80px;
+    background-color: #323d24;
+    padding: 10px;
+    border: 1px solid style, white;
+} 
 .logo{
     width: 80px;
 }
@@ -84,6 +93,15 @@ nav a {
     color: #292c1e;
 }
 .book, .book{
+    background-color: #b68877;
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.read{
     background-color: #b68877;
     text-decoration: none;
     color: brown;
@@ -219,6 +237,9 @@ footer .social img{
     }
     #hero-msg h4 {
         display: none;
+    }
+    #hero-msg h5 {
+        margin-top: auto;
     }
     .home-title {
         font-size: 25px;
