@@ -1,3 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Covered+By+Your+Grace&family=Edu+TAS+Beginner&family=Montserrat+Alternates:wght@500&display=swap');
+.home-title{
+    font-family: 'montserrat alternates', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color:#335c67;
+}
+#background{
+    height: 750px;
+    background-color: #9e2a2b;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #335c67;
+    font-family: 'monstserrat alternates', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: none;
+    font-size: 20px;
+    margin: auto;
+    color: #fff3b0;
+    padding: 10px;
+    font-family: "montserrat alternates", sans-serif;
+
+}
+p{
+    margin: auto;
+    padding: 10px;
+    color: #e09f33;
+    font-size: 20px;
+    font-family: "covered by your grace", cursive;
+}
+h3{
+    margin: 0;
+    padding: 10px;
+    color: #fff3b0;
+    font-size: 40px;
+    font-family: "montserrat alternates", sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #335c67;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "montserrat alternates", sans-serif;
+}
+nav a:hover{
+    background-color: #396E94;
+    color: #e09f33;
+}
+nav a{
+    text-align: center;
+    color: #fff3b0;
+    text-decoration: none;
+    padding: 30px;
+}
 .logo{
-    width: 80px;
+    width: 100px;
+}
+#logo_link{
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -30px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h1{
+    color: #9e2a2b;
+    text-align: center;
+    font-size: 50px;
+    font-family: "montserrat alternates", sans-serif;
+}
+#hero-img{
+    width: 100%;
+}
+.icon{
+    width: 100%;
+    padding-top: 10px;
+    border: 10px solid #fff3b0;
+    background-color: aliceblue;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px;
+}
+.icon:hover{
+    opacity: .6;
+    transform:scale(1.1);
+}
+.interior-card, .furniture-card, .design-card{
+    margin: 50px;
+    padding-bottom: 250px;
+}
+.interior-card{
+    width: 80%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.furniture-card{
+    width: 80%;
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+.design-card{
+    width: 100%;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+#background{
+    width: 80%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
+.room{
+    width: 80%;
+    grid-column: 1/7;
+    grid-row: 8/5;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 5fr;
+    padding: 10px;
+}
+.button-box{
+    text-align: center;
+    color: #fff3b0;
+    font-family: 'montserrat alternates', sans-serif;
+}
+.talk{
+    background-color: #396E94;
+    text-decoration: none;
+    color: #fff3b0;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.talk:hover{
+    background-color: #9e2a2b;
+    color: #e09f33;
+}
+
+footer{
+    text-decoration: none;
+    padding: 25px 50px;
+    background-color: #396E94;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+footer p{
+    font-size: 1.2em;
+    color: #fff3b0;
+    padding: 25px 50px;
+    font-family: 'montserrat alternates', sans-serif;
+}
+footer p a{
+    color: #fff3b0;
+}
+footer p a:hover{
+    text-decoration: underline;
+    color: #e09f33;
+}
+footer .social img{
+    padding-top: 15px;
+    border-radius: 5px;
 }
