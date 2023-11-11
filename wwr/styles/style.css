@@ -150,11 +150,10 @@ hr{
     background-color:#515e3c;
 }
 h2{
-    font-size: 50px;
-    text-align: center;
     background-color: #323d24;
     color: #d9c2a3;
-    padding: 50px;
+    font-size: 40px;
+    text-align: center;
 }
 h3{
     font-size: 20px;
