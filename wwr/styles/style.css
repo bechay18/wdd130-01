@@ -128,18 +128,20 @@ nav a {
     border-radius: 5px;
 }
 .rafting-img{
-    width: 30%;
+    width: 70%;
     margin: 0;
+    padding-right: 30%;
+    background-color:#b68877;
     display: block;
     box-shadow: 5px 5px 10px #b68877;
 }
 .overlay{
     position: absolute;
-    top: 150%;
-    left: 50%;
+    top: 155%;
+    left: 60%;
     transform: translate(-25%, -25%);
     background-color: #323d24;
-    padding: 100px;
+    padding: 10px;
     box-shadow: 5px 5px 10px #3b6d78;
     text-align: center;
 }
@@ -309,6 +311,12 @@ footer .social img{
     .msg-h2, .msg-h3, .p{
         margin: 50px auto;
         width: 50%;
+    }
+    #container{
+        display: none;
+    }
+    #overlay{
+        display: none;
     }
 }
 
