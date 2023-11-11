@@ -138,12 +138,23 @@ nav a {
 .overlay{
     position: absolute;
     top: 155%;
-    left: 60%;
+    left: 50%;
     transform: translate(-25%, -25%);
     background-color: #323d24;
     padding: 10px;
     box-shadow: 5px 5px 10px #3b6d78;
     text-align: center;
+}
+hr{
+    height: 5px;
+    background-color:#515e3c;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    background-color: #323d24;
+    color: #d9c2a3;
+    padding: 50px;
 }
 h3{
     font-size: 20px;
@@ -261,6 +272,24 @@ footer .social img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #b68877;
 }
+.message-container{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    font-size: 20px;
+    color: #3b6d78;
+}
+.message{
+    margin-right: 10px;
+}
+.message img{
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
 @media screen and (max-width:900px){
     #hero, .home-grid{
         display:block;
@@ -306,18 +335,26 @@ footer .social img{
     }
     .rafting-img{
         margin: 50px auto;
-        width: 50%;
+        width: 100%;
     }
-    .msg-h2, .msg-h3, .p{
-        margin: 50px auto;
-        width: 50%;
+    #overlay-msg-h2{
+        margin: 25px auto;
+        width: 25%;
     }
     #container{
         display: none;
     }
-    #overlay{
-        display: none;
+    #overlay-msg-h3{
+        display: 25px auto;
+        width: 25%;
     }
+    #overlay-p{
+        display: 25px auto;
+        width: 25%;
+    }
+    
+
+    
 }
 
    
