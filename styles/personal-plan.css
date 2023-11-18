@@ -94,6 +94,69 @@ nav a{
 #hero-img{
     width: 100%;
 }
+.info-sub-title{
+    background-color: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'montserrat alternates', sans-serif;
+    color:aliceblue;
+}
+.info-title{
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    color: #fff3b0;
+}
+.card-img{
+    width: auto;
+    background-color: #fff3b0;
+    border: 10px solid#9e2a2b;
+    box-shadow: 5px 5px 10px #396E94;
+}
+.wpb_wrapper{
+    background-color: #396E94;
+    padding: 30px;
+}
+.brxy-title, .brxy-title-1, .brxy-title-655852d3af6a2{
+    font-size: 40px;
+    color:#fff3b0;
+    padding: 10px;
+    font-family: 'montserrat alternates', sans-serif;
+}
+.wpb_wrapper p{
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+    padding: 15px;
+    background-color: none;
+    font-family: 'montserrat alternates', sans-serif;
+    color: #fff3b0;
+
+}
+.profile-card h4{
+    background-color: #335c67;
+    height: 50px;
+    width: 80%;
+}    
+
+
+h5{
+    font-size: 15px;
+    color: #e09f33;
+    padding: 10px;
+}
+.message-img{
+    width: 100%;
+    min-height: 50%;
+}
 .icon{
     width: 100%;
     padding-top: 10px;
@@ -125,6 +188,9 @@ nav a{
     grid-column: 5/6;
     grid-row: 2/3;
 }
+.message-container{
+    background-color: #9e2a2b;
+}
 h2{
     background-color: #9e2a2b;
     box-shadow: 5px 5px 10px#fff3b0;
@@ -149,7 +215,8 @@ h2{
 .home-grid{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr ;
-    padding: 10px;
+    padding: 15px;
+    
 }
 .button-box{
     padding: 15px;
