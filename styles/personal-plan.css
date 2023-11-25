@@ -200,8 +200,8 @@ h2{
 }
 .overlay{
     position: absolute;
-    top: 300%;
-    left: 65%;
+    top: 280%;
+    left: 50%;
     transform: translate(-25%, -25%);
     background-color: #396E94;
     padding: 30px;
@@ -212,7 +212,7 @@ h2{
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 150px;
+    margin: 200px;
 }
 .brxy-container{
     align-items: center;
