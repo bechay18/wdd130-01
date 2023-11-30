@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All about me</title>
-    <link rel="stylesheet" type="text/css" href="position">
+    <link rel="stylesheet" type="text/css" href="styles/position.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a id="active" href="http://index.html">Home</a>
-            <a href="https://www.churchofjesuschrist.org">Church of Jesus Christ</a>
-            <a href="https://www.churchofjesuschrist.org/temples">Temples</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
-        </nav>
-    </header>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="http://index.html">Home</a>
+                <a href="https://www.churchofjesuschrist.org">Church of Jesus Christ</a>
+                <a href="https://www.churchofjesuschrist.org/temples">Temples</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
+            </div>
+        </div>
     <main>
         <h1>Brigham Young University Idaho</h1>
         <img src="https://www.byui.edu/images/service-sites/map-banner.jpg">
         <p class="main-para">BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
     </main>
     <h1>About Me</h1>
-    <img alt="Image of me?" src="/wwr/images/profile.jpg">
-    <h2>Arnold Yap</h2>
+    <div class="container">
+      <img alt="avatar" class="image" src="/wwr/images/profile.jpg">
+      <div class="middle">
+         <div class="text">Arnold Yap</div>
+      </div>
+    </div> 
     <p>Arnold from Davao, Philippines, here. I am married with two children. Ten years have passed since I joned the the Church of Latter-day Saints.Drawing is one of my intrest.</p>
     <p>Web and graphic design is the academic path I'm taking. And Byu-Idaho will assist me in this road.</p>
     <footer>
