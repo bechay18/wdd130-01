@@ -110,8 +110,8 @@ nav a{
 }
 .card-img{
     width: auto;
-    background-color: #fff3b0;
     border: 10px solid#9e2a2b;
+    border-radius: 50%;
     box-shadow: 5px 5px 10px #396E94;
 }
 .wpb_wrapper{
@@ -129,20 +129,29 @@ nav a{
     text-align: justify;
     padding: 10px;
 }
+.living-card{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 .living-card h2{
     font-size: 40px;
     text-align: center;
 }
+.living-card{
+    padding: 30px;
+
+}
 h4{
     font-size: 20px;
-    padding: 15px;
+    padding: 20px;
     background-color: none;
     font-family: 'montserrat alternates', sans-serif;
     color: #fff3b0;
 
 }
 .profile-card h4{
-    background-color: #335c67;
+    background-color:#9e2a2b;
     height: 50px;
     width: 15%;
 }    
@@ -153,9 +162,26 @@ h5{
     color: #e09f33;
     padding: 10px;
 }
+.textblock{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.textblock h2{
+    border: 10px solid #e09f33;
+}
 .message-img{
-    width: 100%;
-    min-height: 50%;
+    width: 120%;
+    height: 150%;
+    background-color: #e09f33;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: 10px solid#fff3b0;
 }
 .icon{
     width: 100%;
@@ -189,12 +215,20 @@ h5{
     grid-row: 1/3;
 }
 .message-container{
+    position: relative;
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 0;
     background-color:#e09f33;
 }
+.middle{
+    transition: .5s ease;
+    position: absolute;
+    top: 65%;
+    left: 40%
+}
 h2{
+    border: 10px solid #e09f33;
     background-color: #9e2a2b;
     box-shadow: 5px 5px 10px#fff3b0;
 }
@@ -217,6 +251,10 @@ h2{
 .brxy-container{
     align-items: center;
 }
+.bialty-container{
+    width: 200%;
+
+}
 .room-img{
     width: 250%;
     margin-top: 150%;
@@ -234,6 +272,7 @@ h2{
 p{
     text-align: center;
     font-size: 35px;
+    background-color: #396E94;
 }
 .home-grid{
     display: grid;
@@ -249,7 +288,6 @@ p{
     text-align: center;
     color: #fff3b0;
     font-family: 'montserrat alternates', sans-serif;
-
 }
 .talk{
     background-color: #e09f33;
