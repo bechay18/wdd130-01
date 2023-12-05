@@ -344,3 +344,54 @@ footer .social img{
     border-radius: 5px;
     box-shadow: 5px 5px 10px#fff3b0;
 }
+form{
+    margin: 100px auto;
+    width: 700px;
+    padding: 1em;
+    border: 1px solid #fff3b0;
+    border-radius: 1em;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li{
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-family: 'montserrat alternates', sans-serif;
+    color: #e09f33;
+}
+input, textarea{
+    font: 1em 'montserrat alternates', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #9e2a2b;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input:focus,
+textarea:focus{
+    border-color: #e09f33;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+input[type=submit]{
+    background-color: #396E94;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background: #e09f33;
+}
+
