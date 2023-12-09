@@ -350,9 +350,9 @@ footer .social img{
 }
 form{
     margin: 10px auto;
-    width: 50%;
+    width: 60%;
     height: 200%;
-    padding: 1em;
+    padding: 2em;
     border: 1px solid #fff3b0;
     border-radius: 1em;
     background-color: slategrey;
@@ -436,11 +436,6 @@ h5:nth-child(2){
     font-family: 'montserrat alternates', sans-serif;
     float: inline-start;
 }
-a{
-    color: #e09f33;
-}
-
-
 form.example input[type=text]{
     padding: 20px;
     font-size: 17px;
@@ -488,6 +483,9 @@ form.example::after{
     background: none;
     overflow-x: hidden;
     padding-top: 16px;
+    font-family:'montserrat alternates', sans-serif;
+    font-size: 20px;
+    padding-bottom: 0;
 }
 .sidebar a{
     padding: 6px 8px 6px 16px;
@@ -499,5 +497,8 @@ form.example::after{
 .sidebar a:hover{
     color: #fff3b0;
 }
-
+.larger-envelope-open-icon{
+    font-size: 24px;
+    color: beige;
+}
 
