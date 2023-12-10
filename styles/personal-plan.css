@@ -6,14 +6,16 @@
     color:#335c67;
 }
 #background{
-    height: 750px;
-    background-color: #9e2a2b;
+    width:500px;
     align-items: center;
 }
+#background{
+    grid-column: 2/7;
+    grid-row: 5/8;
+}    
 body{
     width: 100%;
     height: 100%;
-    background-color: #335c67;
     font-family: 'monstserrat alternates', sans-serif;
     font-size: 20px;
     margin: 0;
@@ -35,11 +37,11 @@ p{
     font-size: 20px;
     font-family: "covered by your grace", cursive;
 }
-h3{
+h3:first-child{
     margin: 0;
     padding: 10px;
     color: #fff3b0;
-    font-size: 40px;
+    font-size: 60px;
     font-family: "montserrat alternates", sans-serif;
 }
 header{
@@ -94,25 +96,33 @@ nav a{
 #hero-img{
     width: 100%;
 }
+.brxy-container{
+    background-color: none;
+}
 .info-sub-title{
     background-color: none;
     font-size: 20px;
     text-align: center;
     padding: 25px;
     font-family: 'montserrat alternates', sans-serif;
-    color:aliceblue;
+    color: #396E94;
 }
 .info-title{
     font-size: 35px;
     text-align: center;
     padding: 10px;
-    color: #fff3b0;
+    color: #335c67;
+    font-family: 'montserrat alternates', sans-serif;
 }
 .card-img{
-    width: auto;
+    width: 50%;
     border: 10px solid#9e2a2b;
     border-radius: 50%;
     box-shadow: 5px 5px 10px #396E94;
+}
+.profile-img{
+    border: 10px solid #335c67;
+    border-radius: 50%;
 }
 .wpb_wrapper{
     background-color: #396E94;
@@ -120,7 +130,7 @@ nav a{
 }
 .brxy-title, .brxy-title-1, .brxy-title-655852d3af6a2{
     font-size: 40px;
-    color:#fff3b0;
+    color:#9e2a2b;
     padding: 10px;
     font-family: 'montserrat alternates', sans-serif;
 }
@@ -133,14 +143,13 @@ nav a{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    padding: 30px;
 }
 .living-card h2{
     font-size: 40px;
     text-align: center;
-}
-.living-card{
-    padding: 30px;
-
+    color: #335c67;
+    background-color: wheat;
 }
 h4{
     font-size: 20px;
@@ -152,8 +161,9 @@ h4{
 }
 .profile-card h4{
     background-color:#9e2a2b;
-    height: 50px;
+    height: 100px;
     width: 15%;
+    border-radius: 10px;
 }    
 
 
@@ -176,7 +186,7 @@ h5{
 .message-img{
     width: 120%;
     height: 150%;
-    background-color: #e09f33;
+    background-color: #335c67;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -184,33 +194,26 @@ h5{
     border: 10px solid#fff3b0;
 }
 .icon{
-    width: 100%;
+    width: 100px;
     padding-top: 10px;
     border: 10px solid #fff3b0;
     background-color: aliceblue;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px;
-}
-.icon:hover{
-    opacity: .6;
-    transform:scale(1.1);
 }
 .interior-card, .furniture-card, .design-card{
-    margin: 50px;
-    padding-bottom: 50px;
+    margin: 100px;
+    padding-bottom: 10px;
 }
 .interior-card{
-    width: 80%;
     grid-column: 2/3;
     grid-row: 1/3;
 }
 .furniture-card{
-    width: 80%;
+    width: 50%;
     grid-column: 3/5;
     grid-row: 1/3;
 }
 .design-card{
-    width: 80%;
+    width: 50%;
     grid-column: 5/6;
     grid-row: 1/3;
 }
@@ -219,7 +222,7 @@ h5{
     display: flex;
     align-items: center;
     margin: 0;
-    background-color:#e09f33;
+    background-color:#335c67;
 }
 .middle{
     transition: .5s ease;
@@ -228,9 +231,10 @@ h5{
     left: 40%
 }
 h2{
-    border: 10px solid #e09f33;
-    background-color: #9e2a2b;
-    box-shadow: 5px 5px 10px#fff3b0;
+    background-color: none;
+    color: #e09f33;
+    font-size: 30px;
+    text-align:justify;
 }
 .overlay{
     position: absolute;
@@ -255,33 +259,46 @@ h2{
     width: 200%;
 
 }
-.room-img{
+.card-img, .room{
     width: 250%;
-    margin-top: 150%;
-    padding-right: 155%;
-    background-color: #9e2a2b;
-    display: block;
-    box-shadow: 5px 5px 10px #335c67;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.room{
+    grid-column: 1/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #fff3b0;
 }
 .msg{
-    margin-right: 10px;
+    background-color: #396E94;
+    padding: 10px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #335c67;
+    margin: 50px;
+    margin-right: 100px;
 }
-.msg h3{
+.msg h3:first-child{
     text-align: center;
+    background-color: #335c67;
+    font-size: 30px;
 }
 p{
     text-align: center;
-    font-size: 35px;
-    background-color: #396E94;
+    font-size: 30px;
+    background-color: #335c67;
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5fr;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 50px;
+    background-color: #335c67;
+}
+.icon{
+    max-width: 100px;
+    padding-top: 10px;
 }
 .button-box{
     padding: 15px;
@@ -296,6 +313,7 @@ p{
     font-size: 20px;
     padding: 15px 30px;
     margin-top: 50px;
+    margin-left: 60px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px;
 }
